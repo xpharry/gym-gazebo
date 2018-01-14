@@ -97,7 +97,10 @@ echo "## AMP/Ardupilot installed ##"
 
 # Import and build dependencies
 cd ../../catkin_ws/src/
-vcs import < ../../gazebo.repos
+vcs import < ../../gym-gazebo/gym_gazebo/envs/installation/gazebo.repos
+
+git clone https://github.com/ethz-asl/mav_comm.git
+
 cd ..
 catkin_make --pkg mav_msgs
 source devel/setup.bash
