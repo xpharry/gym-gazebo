@@ -155,6 +155,12 @@ wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
 sudo apt-get update
 sudo apt-get remove .*gazebo.* && sudo apt-get update && sudo apt-get install gazebo7 libgazebo7-dev
 ```
+- Upgrade pip
+
+```bash
+sudo apt-get upgrade pip
+sudo pip install --upgrade pip
+```
 
 #### Gym Gazebo Pip
 
