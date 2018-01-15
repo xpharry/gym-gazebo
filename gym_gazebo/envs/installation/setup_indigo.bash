@@ -122,6 +122,7 @@ sudo apt-get install gfortran
 git clone git://github.com/Theano/Theano.git
 cd Theano/
 sudo python setup.py develop
+sudo pip install tensorflow
 sudo pip install keras
 
 echo "## Theano and Keras installed ##"
