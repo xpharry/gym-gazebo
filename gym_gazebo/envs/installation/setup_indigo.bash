@@ -13,6 +13,7 @@ fi
 source /opt/ros/indigo/setup.bash
 
 # Create catkin_ws
+cd ~
 ws="catkin_ws"
 if [ -d $ws ]; then
   echo "Error: catkin_ws directory already exists" 1>&2
